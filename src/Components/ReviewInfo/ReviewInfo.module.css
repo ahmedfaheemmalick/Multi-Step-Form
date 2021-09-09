@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin-top: 8rem !important;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.review_section div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.review_section div p {
+  line-height: 40px !important;
+}
+
+.btn_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_div span {
+  width: 10px;
+}
+
+.btn {
+  width: 100%;
+  margin-top: 30px !important;
+  background: #000 !important;
+  color: #fff !important;
+}
