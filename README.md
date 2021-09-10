@@ -2,7 +2,7 @@
  
 [live Site](https://a-multi-step-form-app.netlify.app/)
 
-![Multi Step Form App](/public/multistepform.png)
+![Multi Step Form App](preview.png)
 
 This is the code repo of Multi Step Form App. There I used:
   * [React](https://reactjs.org)
