@@ -1,10 +1,10 @@
-# Shoe Store App
+# Multi Step Form App
  
 [live Site](https://a-multi-step-form-app.netlify.app/)
 
-![Shoe Store App](/public/multistepform.png)
+![Multi Step Form App](/public/multistepform.png)
 
-This is the code repo of Shoe Store App. There I used:
+This is the code repo of Multi Step Form App. There I used:
   * [React](https://reactjs.org)
   * [Material UI](https://material-ui.com/)
   * [Typescript](https://www.typescriptlang.org/)
