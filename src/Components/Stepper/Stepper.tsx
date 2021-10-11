@@ -29,7 +29,7 @@ const StepperComponent = () => {
 
   const handleReset = () => setActiveStep(0);
 
-  const getStepContent = (stepIndex: any) => {
+  const getStepContent = (stepIndex: number) => {
     switch (stepIndex) {
       case 0:
         return <PersonalInfo formValues={formValues} handleNext={handleNext} />;
@@ -44,9 +44,9 @@ const StepperComponent = () => {
       case 2:
         return (
           <ReviewInfo
+            formValues={formValues}
             handleReset={handleReset}
             handleBack={handleBack}
-            formValues={formValues}
           />
         );
       default:
