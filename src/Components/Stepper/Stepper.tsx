@@ -27,7 +27,10 @@ const StepperComponent = () => {
   const handleBack = () =>
     setActiveStep((prevActiveStep) => prevActiveStep - 1);
 
-  const handleReset = () => setActiveStep(0);
+  const handleReset = () => {
+    window.location.reload();
+    setActiveStep(0);
+  };
 
   const getStepContent = (stepIndex: number) => {
     switch (stepIndex) {
